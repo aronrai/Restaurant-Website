@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anila's Restaurant</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <h1 id="hidden">Use Mobile<i class="fab fa-info-"></i></h1>
+  <div id="nothidden">
+    <header>
+      <h1>Anila's Restaurant</h1>
+    </header>
+    <nav>
+      <div class="menu-icon">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="dropdown" id="dropdownMenu">
+        <a href="#about"><i class="fas fa-info-circle"></i> About</a>
+        <a href="#menu"><i class="fas fa-utensils"></i> Menu</a>
+        <a href="#dinein"><i class="fas fa-chair"></i> Dine In</a>
+        <a href="#contact"><i class="fas fa-envelope"></i> Contact Us</a>
+        <!--<a href="#order"><i class="fas fa-shopping-cart"></i> Order</a>-->
+      </div>
+    </nav>
+    <main>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>
+          Welcome to Anila's Restaurant! Enjoy the best dishes in town made
+          with love and care.
+        </p>
+      </section>
+      <section id="menu">
+        <h2>Our Menu</h2>
+        <ul>
+          <li>Margherita Pizza</li>
+          <li>Spaghetti Carbonara</li>
+          <li>Grilled Chicken Salad</li>
+          <li>Classic Cheeseburger</li>
+        </ul>
+      </section>
+      <section id="dinein">
+        <h2>Dine In</h2>
+        <p>Relax and enjoy our cozy dining area with your loved ones.</p>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="https://formspree.io/f/{your-form-id}" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+      <!--<section id="order">
+        <h2>Order Online</h2>
+        <p>Place your orders now and enjoy delicious meals delivered to your doorstep!</p>
+      </section>-->
+    </main>
+    <div id="gap"></div>
+    <footer>
+      &copy; <span id="year"></span> Anila's Restaurant. All Rights Reserved.
+    </footer>
+    <script src="index.js"></script>
+  </div>
+</body>
+
+</html>
