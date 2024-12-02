@@ -108,6 +108,7 @@ ul {
 
 ul li {
   margin-bottom: 5px;
+  white-space: pre;
 }
 
 /* Form Styles */
